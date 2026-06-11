@@ -1,4 +1,4 @@
-# Playwright UI Testing Assignment 8.3
+# Playwright UI Testing
 ## SauceDemo E-commerce Application Testing
 
 ### Project Overview

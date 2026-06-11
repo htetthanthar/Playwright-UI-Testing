@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Playwright reports and results
+playwright-report/
+test-results/
+
+# Screenshots and videos (auto-generated)
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.webm
+
+# Trace files
+*.trace.zip
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage
+coverage/
+
+# Build outputs
+dist/
+build/
