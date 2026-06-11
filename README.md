@@ -24,6 +24,7 @@ playwright-saucedemo-assignment/
 
 
 
+
 2. Define "quality gate" and its purpose in CI/CD pipeline
 
 Quality gate
