@@ -1,0 +1,1594 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\playwright.config.ts",
+    "rootDir": "C:/Users/Kelvin Soe/Downloads/playwright-assignment/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 11
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Kelvin Soe/Downloads/playwright-assignment/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 11
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Kelvin Soe/Downloads/playwright-assignment/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Kelvin Soe/Downloads/playwright-assignment/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 11
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Kelvin Soe/Downloads/playwright-assignment/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.60.0",
+    "workers": 11,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "shopping-flow.spec.ts",
+      "file": "shopping-flow.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Task 1: Login Validation",
+          "file": "shopping-flow.spec.ts",
+          "line": 45,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should login successfully with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5428,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:08.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-a38f38dcaed86e09b4b7",
+              "file": "shopping-flow.spec.ts",
+              "line": 52,
+              "column": 7
+            },
+            {
+              "title": "should display error message for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4061,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:08.883Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-bfcd529da8db43f14dd4",
+              "file": "shopping-flow.spec.ts",
+              "line": 76,
+              "column": 7
+            },
+            {
+              "title": "should display error for locked out user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 6085,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:08.810Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-8073974d214ca55fb744",
+              "file": "shopping-flow.spec.ts",
+              "line": 97,
+              "column": 7
+            },
+            {
+              "title": "should login successfully with valid credentials",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 10,
+                      "status": "failed",
+                      "duration": 25901,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:63:55",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 55,
+                          "line": 63
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 61 |\u001b[39m     \n \u001b[90m 62 |\u001b[39m     \u001b[90m// Click login button using getByRole\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m     \n \u001b[90m 65 |\u001b[39m     \u001b[90m// Verify successful login by checking URL contains inventory\u001b[39m\n \u001b[90m 66 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*inventory.html/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 55,
+                            "line": 63
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\n\n\u001b[0m \u001b[90m 61 |\u001b[39m     \n \u001b[90m 62 |\u001b[39m     \u001b[90m// Click login button using getByRole\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m     \n \u001b[90m 65 |\u001b[39m     \u001b[90m// Verify successful login by checking URL contains inventory\u001b[39m\n \u001b[90m 66 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*inventory.html/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:63:55\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:15.162Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-1-Login-687d7-ully-with-valid-credentials-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-1-Login-687d7-ully-with-valid-credentials-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-1-Login-687d7-ully-with-valid-credentials-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 55,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-d7741777aba330f0472a",
+              "file": "shopping-flow.spec.ts",
+              "line": 52,
+              "column": 7
+            },
+            {
+              "title": "should display error message for invalid credentials",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 19000,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:87:55",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 55,
+                          "line": 87
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 85 |\u001b[39m     \n \u001b[90m 86 |\u001b[39m     \u001b[90m// Click login button\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 87 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 88 |\u001b[39m     \n \u001b[90m 89 |\u001b[39m     \u001b[90m// Verify error message is displayed using getByRole for alert\u001b[39m\n \u001b[90m 90 |\u001b[39m     \u001b[36mconst\u001b[39m errorMessage \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[data-test=\"error\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 55,
+                            "line": 87
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n\u001b[0m \u001b[90m 85 |\u001b[39m     \n \u001b[90m 86 |\u001b[39m     \u001b[90m// Click login button\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 87 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 88 |\u001b[39m     \n \u001b[90m 89 |\u001b[39m     \u001b[90m// Verify error message is displayed using getByRole for alert\u001b[39m\n \u001b[90m 90 |\u001b[39m     \u001b[36mconst\u001b[39m errorMessage \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[data-test=\"error\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:87:55\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:15.617Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-1-Login-9e86a-age-for-invalid-credentials-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-1-Login-9e86a-age-for-invalid-credentials-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-1-Login-9e86a-age-for-invalid-credentials-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 55,
+                        "line": 87
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-fcec7c08bf438ca3b89a",
+              "file": "shopping-flow.spec.ts",
+              "line": 76,
+              "column": 7
+            },
+            {
+              "title": "should display error for locked out user",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 19133,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:106:55",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 55,
+                          "line": 106
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 104 |\u001b[39m     \n \u001b[90m 105 |\u001b[39m     \u001b[90m// Click login button\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 106 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 107 |\u001b[39m     \n \u001b[90m 108 |\u001b[39m     \u001b[90m// Verify error message is displayed\u001b[39m\n \u001b[90m 109 |\u001b[39m     \u001b[36mconst\u001b[39m errorMessage \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[data-test=\"error\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 55,
+                            "line": 106
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n\u001b[0m \u001b[90m 104 |\u001b[39m     \n \u001b[90m 105 |\u001b[39m     \u001b[90m// Click login button\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 106 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 107 |\u001b[39m     \n \u001b[90m 108 |\u001b[39m     \u001b[90m// Verify error message is displayed\u001b[39m\n \u001b[90m 109 |\u001b[39m     \u001b[36mconst\u001b[39m errorMessage \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[data-test=\"error\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:106:55\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:15.757Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-1-Login-c63f4-y-error-for-locked-out-user-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-1-Login-c63f4-y-error-for-locked-out-user-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-1-Login-c63f4-y-error-for-locked-out-user-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 55,
+                        "line": 106
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-df31cd76663d48a7568a",
+              "file": "shopping-flow.spec.ts",
+              "line": 97,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Task 2: Product and Cart Validation",
+          "file": "shopping-flow.spec.ts",
+          "line": 121,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should add two products to cart and verify badge count",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 5129,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:08.928Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-cfcce42cd25d7a573bb8",
+              "file": "shopping-flow.spec.ts",
+              "line": 134,
+              "column": 7
+            },
+            {
+              "title": "should verify products appear in cart after adding",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 14522,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:169:52",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 52,
+                          "line": 169
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 167 |\u001b[39m     \n \u001b[90m 168 |\u001b[39m     \u001b[90m// Click on cart icon using getByRole\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 169 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 170 |\u001b[39m     \n \u001b[90m 171 |\u001b[39m     \u001b[90m// Verify we're on cart page\u001b[39m\n \u001b[90m 172 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*cart.html/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 52,
+                            "line": 169
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n\n\u001b[0m \u001b[90m 167 |\u001b[39m     \n \u001b[90m 168 |\u001b[39m     \u001b[90m// Click on cart icon using getByRole\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 169 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 170 |\u001b[39m     \n \u001b[90m 171 |\u001b[39m     \u001b[90m// Verify we're on cart page\u001b[39m\n \u001b[90m 172 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*cart.html/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:169:52\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:08.897Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-52579-appear-in-cart-after-adding-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-52579-appear-in-cart-after-adding-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-52579-appear-in-cart-after-adding-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 52,
+                        "line": 169
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-ea5c03f3cf9b105d5d63",
+              "file": "shopping-flow.spec.ts",
+              "line": 154,
+              "column": 7
+            },
+            {
+              "title": "should remove product from cart",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 15670,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:194:52",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 52,
+                          "line": 194
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 192 |\u001b[39m     \n \u001b[90m 193 |\u001b[39m     \u001b[90m// Go to cart page\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 194 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 195 |\u001b[39m     \n \u001b[90m 196 |\u001b[39m     \u001b[90m// Click remove button using getByRole\u001b[39m\n \u001b[90m 197 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Remove'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 52,
+                            "line": 194
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n\n\u001b[0m \u001b[90m 192 |\u001b[39m     \n \u001b[90m 193 |\u001b[39m     \u001b[90m// Go to cart page\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 194 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 195 |\u001b[39m     \n \u001b[90m 196 |\u001b[39m     \u001b[90m// Click remove button using getByRole\u001b[39m\n \u001b[90m 197 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Remove'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:194:52\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:08.952Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-b0767-ld-remove-product-from-cart-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-b0767-ld-remove-product-from-cart-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-b0767-ld-remove-product-from-cart-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 52,
+                        "line": 194
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-4d239ed13b7095d38365",
+              "file": "shopping-flow.spec.ts",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "should add two products to cart and verify badge count",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 20033,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:128:55",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 55,
+                          "line": 128
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 126 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Username'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Password'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 128 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 129 |\u001b[39m     \n \u001b[90m 130 |\u001b[39m     \u001b[90m// Wait for inventory page to load\u001b[39m\n \u001b[90m 131 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*inventory.html/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 55,
+                            "line": 128
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\n\n\u001b[0m \u001b[90m 126 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Username'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Password'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 128 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 129 |\u001b[39m     \n \u001b[90m 130 |\u001b[39m     \u001b[90m// Wait for inventory page to load\u001b[39m\n \u001b[90m 131 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*inventory.html/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:128:55\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:16.298Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-cd446-cart-and-verify-badge-count-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-cd446-cart-and-verify-badge-count-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-cd446-cart-and-verify-badge-count-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 55,
+                        "line": 128
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-bdfdf7f5e5b2776a0575",
+              "file": "shopping-flow.spec.ts",
+              "line": 134,
+              "column": 7
+            },
+            {
+              "title": "should verify products appear in cart after adding",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 9,
+                      "status": "failed",
+                      "duration": 18452,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:128:55",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 55,
+                          "line": 128
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 126 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Username'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Password'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 128 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 129 |\u001b[39m     \n \u001b[90m 130 |\u001b[39m     \u001b[90m// Wait for inventory page to load\u001b[39m\n \u001b[90m 131 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*inventory.html/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 55,
+                            "line": 128
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\n\n\u001b[0m \u001b[90m 126 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Username'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Password'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 128 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 129 |\u001b[39m     \n \u001b[90m 130 |\u001b[39m     \u001b[90m// Wait for inventory page to load\u001b[39m\n \u001b[90m 131 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/.*inventory.html/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:128:55\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:17.868Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-52579-appear-in-cart-after-adding-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-52579-appear-in-cart-after-adding-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-52579-appear-in-cart-after-adding-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 55,
+                        "line": 128
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-c6c588b2dc49639dc1e5",
+              "file": "shopping-flow.spec.ts",
+              "line": 154,
+              "column": 7
+            },
+            {
+              "title": "should remove product from cart",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 17874,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:194:52",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 52,
+                          "line": 194
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 192 |\u001b[39m     \n \u001b[90m 193 |\u001b[39m     \u001b[90m// Go to cart page\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 194 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 195 |\u001b[39m     \n \u001b[90m 196 |\u001b[39m     \u001b[90m// Click remove button using getByRole\u001b[39m\n \u001b[90m 197 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Remove'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 52,
+                            "line": 194
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n\n\u001b[0m \u001b[90m 192 |\u001b[39m     \n \u001b[90m 193 |\u001b[39m     \u001b[90m// Go to cart page\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 194 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 195 |\u001b[39m     \n \u001b[90m 196 |\u001b[39m     \u001b[90m// Click remove button using getByRole\u001b[39m\n \u001b[90m 197 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Remove'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:194:52\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:21.523Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-b0767-ld-remove-product-from-cart-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-b0767-ld-remove-product-from-cart-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-2-Produ-b0767-ld-remove-product-from-cart-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 52,
+                        "line": 194
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-aa2960f5c179d3382110",
+              "file": "shopping-flow.spec.ts",
+              "line": 183,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Task 3: Checkout Flow Validation",
+          "file": "shopping-flow.spec.ts",
+          "line": 212,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should complete full checkout flow successfully",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 6,
+                      "status": "failed",
+                      "duration": 18568,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:225:52",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 52,
+                          "line": 225
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 223 |\u001b[39m     \n \u001b[90m 224 |\u001b[39m     \u001b[90m// Go to cart\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 225 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 226 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 227 |\u001b[39m\n \u001b[90m 228 |\u001b[39m   test(\u001b[32m'should complete full checkout flow successfully'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 52,
+                            "line": 225
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n\n\u001b[0m \u001b[90m 223 |\u001b[39m     \n \u001b[90m 224 |\u001b[39m     \u001b[90m// Go to cart\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 225 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 226 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 227 |\u001b[39m\n \u001b[90m 228 |\u001b[39m   test(\u001b[32m'should complete full checkout flow successfully'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:225:52\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:08.903Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-60b28--checkout-flow-successfully-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-60b28--checkout-flow-successfully-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-60b28--checkout-flow-successfully-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 52,
+                        "line": 225
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-349c6cc4aaf929258018",
+              "file": "shopping-flow.spec.ts",
+              "line": 228,
+              "column": 7
+            },
+            {
+              "title": "should display error when checkout form is incomplete",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 7,
+                      "status": "failed",
+                      "duration": 20657,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:225:52",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 52,
+                          "line": 225
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 223 |\u001b[39m     \n \u001b[90m 224 |\u001b[39m     \u001b[90m// Go to cart\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 225 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 226 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 227 |\u001b[39m\n \u001b[90m 228 |\u001b[39m   test(\u001b[32m'should complete full checkout flow successfully'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 52,
+                            "line": 225
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n\n\u001b[0m \u001b[90m 223 |\u001b[39m     \n \u001b[90m 224 |\u001b[39m     \u001b[90m// Go to cart\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 225 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 226 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 227 |\u001b[39m\n \u001b[90m 228 |\u001b[39m   test(\u001b[32m'should complete full checkout flow successfully'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:225:52\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:08.940Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-4c132-checkout-form-is-incomplete-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-4c132-checkout-form-is-incomplete-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-4c132-checkout-form-is-incomplete-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 52,
+                        "line": 225
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-ab2a1acdff1eb9292aba",
+              "file": "shopping-flow.spec.ts",
+              "line": 271,
+              "column": 7
+            },
+            {
+              "title": "should allow cancellation during checkout",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 8,
+                      "status": "failed",
+                      "duration": 21004,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:225:52",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 52,
+                          "line": 225
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 223 |\u001b[39m     \n \u001b[90m 224 |\u001b[39m     \u001b[90m// Go to cart\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 225 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 226 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 227 |\u001b[39m\n \u001b[90m 228 |\u001b[39m   test(\u001b[32m'should complete full checkout flow successfully'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 52,
+                            "line": 225
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n\n\u001b[0m \u001b[90m 223 |\u001b[39m     \n \u001b[90m 224 |\u001b[39m     \u001b[90m// Go to cart\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 225 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 226 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 227 |\u001b[39m\n \u001b[90m 228 |\u001b[39m   test(\u001b[32m'should complete full checkout flow successfully'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:225:52\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:08.925Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-14423-ancellation-during-checkout-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-14423-ancellation-during-checkout-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-14423-ancellation-during-checkout-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 52,
+                        "line": 225
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-24605f96f4a52aada94b",
+              "file": "shopping-flow.spec.ts",
+              "line": 289,
+              "column": 7
+            },
+            {
+              "title": "should complete full checkout flow successfully",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 22411,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:225:52",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 52,
+                          "line": 225
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 223 |\u001b[39m     \n \u001b[90m 224 |\u001b[39m     \u001b[90m// Go to cart\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 225 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 226 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 227 |\u001b[39m\n \u001b[90m 228 |\u001b[39m   test(\u001b[32m'should complete full checkout flow successfully'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 52,
+                            "line": 225
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n\n\u001b[0m \u001b[90m 223 |\u001b[39m     \n \u001b[90m 224 |\u001b[39m     \u001b[90m// Go to cart\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 225 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 226 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 227 |\u001b[39m\n \u001b[90m 228 |\u001b[39m   test(\u001b[32m'should complete full checkout flow successfully'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:225:52\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:25.076Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-60b28--checkout-flow-successfully-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-60b28--checkout-flow-successfully-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-60b28--checkout-flow-successfully-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 52,
+                        "line": 225
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-e31f14bf79280a666d2f",
+              "file": "shopping-flow.spec.ts",
+              "line": 228,
+              "column": 7
+            },
+            {
+              "title": "should display error when checkout form is incomplete",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 25318,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:219:55",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 55,
+                          "line": 219
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 217 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Username'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\n \u001b[90m 218 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Password'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 219 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 220 |\u001b[39m     \n \u001b[90m 221 |\u001b[39m     \u001b[90m// Add at least one product to cart (required for checkout)\u001b[39m\n \u001b[90m 222 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Add to cart'\u001b[39m })\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 55,
+                            "line": 219
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Login' })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\n\n\u001b[0m \u001b[90m 217 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Username'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\n \u001b[90m 218 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m'Password'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mVALID_USER\u001b[39m\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 219 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 220 |\u001b[39m     \n \u001b[90m 221 |\u001b[39m     \u001b[90m// Add at least one product to cart (required for checkout)\u001b[39m\n \u001b[90m 222 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Add to cart'\u001b[39m })\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:219:55\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:26.526Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-4c132-checkout-form-is-incomplete-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-4c132-checkout-form-is-incomplete-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-4c132-checkout-form-is-incomplete-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 55,
+                        "line": 219
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-15184eda7e1b5d017895",
+              "file": "shopping-flow.spec.ts",
+              "line": 271,
+              "column": 7
+            },
+            {
+              "title": "should allow cancellation during checkout",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 6,
+                      "status": "failed",
+                      "duration": 21951,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:225:52",
+                        "location": {
+                          "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                          "column": 52,
+                          "line": 225
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 223 |\u001b[39m     \n \u001b[90m 224 |\u001b[39m     \u001b[90m// Go to cart\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 225 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 226 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 227 |\u001b[39m\n \u001b[90m 228 |\u001b[39m   test(\u001b[32m'should complete full checkout flow successfully'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                            "column": 52,
+                            "line": 225
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Cart' })\u001b[22m\n\n\n\u001b[0m \u001b[90m 223 |\u001b[39m     \n \u001b[90m 224 |\u001b[39m     \u001b[90m// Go to cart\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 225 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Cart'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 226 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 227 |\u001b[39m\n \u001b[90m 228 |\u001b[39m   test(\u001b[32m'should complete full checkout flow successfully'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts:225:52\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:30.519Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-14423-ancellation-during-checkout-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-14423-ancellation-during-checkout-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\test-results\\shopping-flow-Task-3-Check-14423-ancellation-during-checkout-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Kelvin Soe\\Downloads\\playwright-assignment\\tests\\shopping-flow.spec.ts",
+                        "column": 52,
+                        "line": 225
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-1db49d78a789171dd665",
+              "file": "shopping-flow.spec.ts",
+              "line": 289,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Additional Validation Tests",
+          "file": "shopping-flow.spec.ts",
+          "line": 316,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should verify page title on login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 9,
+                      "status": "passed",
+                      "duration": 3710,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:08.938Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-0167bdfb80f81be0d0c0",
+              "file": "shopping-flow.spec.ts",
+              "line": 318,
+              "column": 7
+            },
+            {
+              "title": "should navigate to product detail page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 10,
+                      "status": "passed",
+                      "duration": 4337,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:08.981Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-fdf929be583b44db3067",
+              "file": "shopping-flow.spec.ts",
+              "line": 331,
+              "column": 7
+            },
+            {
+              "title": "should logout successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 9,
+                      "status": "passed",
+                      "duration": 3334,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:13.106Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-1317141ea62c760a02f3",
+              "file": "shopping-flow.spec.ts",
+              "line": 352,
+              "column": 7
+            },
+            {
+              "title": "should verify page title on login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 7,
+                      "status": "passed",
+                      "duration": 13664,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:32.379Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-221b21d140230df03f28",
+              "file": "shopping-flow.spec.ts",
+              "line": 318,
+              "column": 7
+            },
+            {
+              "title": "should navigate to product detail page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 21,
+                      "parallelIndex": 8,
+                      "status": "passed",
+                      "duration": 18898,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:32.538Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-ae2f325ed069da6a09ab",
+              "file": "shopping-flow.spec.ts",
+              "line": 331,
+              "column": 7
+            },
+            {
+              "title": "should logout successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 22,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 13305,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:38.854Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-28c5c20aa6ce61bfaf35",
+              "file": "shopping-flow.spec.ts",
+              "line": 352,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Quality Gate Validation",
+          "file": "shopping-flow.spec.ts",
+          "line": 378,
+          "column": 6,
+          "specs": [
+            {
+              "title": "all critical paths should pass for quality gate",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 6719,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Quality Gate Passed: Critical user journey is functional\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:13.551Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-1b55f8dfe96fbd9601c3",
+              "file": "shopping-flow.spec.ts",
+              "line": 380,
+              "column": 7
+            },
+            {
+              "title": "all critical paths should pass for quality gate",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 23,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 8051,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Quality Gate Passed: Critical user journey is functional\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-10T11:06:40.590Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48cf2c0605f9bb5e4af1-a9d9b7d1102275ba930c",
+              "file": "shopping-flow.spec.ts",
+              "line": 380,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-06-10T11:06:08.107Z",
+    "duration": 46942.808,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 14,
+    "flaky": 0
+  }
+}
