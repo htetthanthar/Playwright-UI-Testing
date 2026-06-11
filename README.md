@@ -19,7 +19,8 @@ playwright-saucedemo-assignment/
 1.  Create UI test cases using Playwright
 
 
-<img width="453" height="436" alt="image" src="https://github.com/user-attachments/assets/13a04aa8-516d-436c-9a64-cfc365d4d14a" />
+<img width="464" height="423" alt="image" src="https://github.com/user-attachments/assets/c9807382-71e3-47a9-934b-7f232cf70b92" />
+
 
 
 
@@ -29,39 +30,8 @@ Quality gate
 
 Quality Gates are automated checkpoints in CI/CD pipelines that verify code quality, test results, and compliance before merges or deployments, ensuring only validated changes reach production.
 
-┌─────────────────────────────────────────────────┐
-│ CI/CD Pipeline Flow with Quality Gates          │
-├─────────────────────────────────────────────────┤
-│                                                 │
-│  [Code Commit]                                  │
-│       ↓                                         │
-│  [Build Stage]                                  │
-│       ↓                                         │
-│  ┌─────────────────┐                            │
-│  │ QUALITY GATE 1  │ ←─ Unit Tests Pass?        │
-│  │ - Jest tests    │     Coverage > 80%?        │
-│  │ - Linting       │     No critical bugs?      │
-│  └────────┬────────┘                            │
-│           ↓ PASS                                │
-│  [Integration Tests]                            │
-│           ↓                                     │
-│  ┌─────────────────┐                            │
-│  │ QUALITY GATE 2  │ ←─ Playwright UI Tests?    │
-│  │ - E2E workflows │     All browsers pass?     │
-│  │ - Visual checks │     Performance OK?        │
-│  └────────┬────────┘                            │
-│           ↓ PASS                                │
-│  [Staging Deployment]                           │
-│           ↓                                     │
-│  ┌─────────────────┐                            │
-│  │ QUALITY GATE 3  │ ←─ Security scan?          │
-│  │ - Security tests│     Accessibility OK?      │
-│  │ - Compliance    │     Manual approval?       │
-│  └────────┬────────┘                            │
-│           ↓ PASS                                │
-│  [Production Deployment] ✅                     │  
-│                                                 │
-└─────────────────────────────────────────────────┘
+<img width="482" height="702" alt="image" src="https://github.com/user-attachments/assets/71bb9ed1-e842-418d-a697-a853948b3aba" />
+
 
 ### Performance Metrics
 
