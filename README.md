@@ -18,28 +18,9 @@ playwright-saucedemo-assignment/
 ### Learning Outcomes Addressed
 1.  Create UI test cases using Playwright
 
-┌─────────────────────────────────────────┐
-│ Step 1: Navigate to URL                 │
-│   ('https://www.saucedemo.com/')        │
-└─────────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────────┐
-│ Step 2: Use Locators API to Identify        │
-│ Elements                                    │
-│ page.getByRole('button', { name: 'Login' }) │
-└─────────────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────┐
-│ Step 3: Perform Actions on Locator  │
-│ .click(), .fill(), .check()         │
-└─────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────┐
-│ Step 4: Assert Expected Behavior    │
-│ await expect(locator).toBeVisible() │
-└─────────────────────────────────────┘
 
-<img width="467" height="443" alt="image" src="https://github.com/user-attachments/assets/89c3a916-f876-4cdc-aefb-73f910ad9b23" />
+<img width="453" height="436" alt="image" src="https://github.com/user-attachments/assets/13a04aa8-516d-436c-9a64-cfc365d4d14a" />
+
 
 
 2. Define "quality gate" and its purpose in CI/CD pipeline
