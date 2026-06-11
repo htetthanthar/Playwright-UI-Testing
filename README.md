@@ -39,6 +39,7 @@ playwright-saucedemo-assignment/
 │ await expect(locator).toBeVisible() │
 └─────────────────────────────────────┘
 
+<img width="467" height="443" alt="image" src="https://github.com/user-attachments/assets/89c3a916-f876-4cdc-aefb-73f910ad9b23" />
 
 
 2. Define "quality gate" and its purpose in CI/CD pipeline
